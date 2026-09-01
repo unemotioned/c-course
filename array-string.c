@@ -17,7 +17,7 @@ int main() {
     //    printf("%s\n", fruits[i]);
     //}
 
-    /* Exercie */
+    /* Exercise */
 
     // 3 names, each name's max length is 25 bytes
     char names[4][25] = {0};

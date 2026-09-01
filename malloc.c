@@ -3,8 +3,8 @@
 
 int main() {
 
-    // malloc() = A function in C that dynamically allocates a specified number
-    //            of bytes from HEAP memory
+    // malloc() == A function in C that dynamically allocates a specified number
+    //             of bytes from HEAP memory
 
     // char grades[5] = {0}; // fixed size array
 
@@ -14,7 +14,7 @@ int main() {
 
     char *grades = malloc(number * sizeof(char)); // bytes
 
-    // segmentation fault = try to access  not allowed
+    // segmentation fault = trying to access not allowed memory address
     if (grades == NULL) {
         printf("Memory allocation failed\n");
         return 1;
@@ -31,8 +31,8 @@ int main() {
         printf("%c ", grades[i]);
     }
 
-    free(grades);  // returning the rented space from HEAP to OS
-    grades = NULL; // aovids dangling pointers by resetting pointer
+    free(grades); // returning the rented space from HEAP to OS
+    grades = NULL; // avoids dangling pointers by resetting pointer
 
     return 0;
 }

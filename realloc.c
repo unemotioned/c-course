@@ -3,9 +3,9 @@
 
 int main() {
 
-    // realloc() = Reallocation.
-    //             Resize previously allocated memory
-    //             realloc(ptr, bytes)
+    // realloc() == Reallocation.
+    //              Resize previously allocated memory
+    //              realloc(ptr, bytes)
 
     int number = 0;
     printf("Enter the number of prices: ");

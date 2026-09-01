@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main() {
-
-    /* Write a file */
-
-    // 2nd arg "w" = write mode
+    // 2nd arg "w" == write mode
     FILE *p_file = fopen("output.txt", "w");
 
-    char text[] = "Boobies are the man's best friend.\nFoobar is a german.";
+    char text[] = "Tities are the men's best friend.\nFoobar.";
 
     if (p_file == NULL) {
         printf("Error opening file\n");
 
-        return 1; // returning none 0 value means error;
+        return 1; // returning none 0 value means error
     }
 
     fprintf(p_file, "%s", text);

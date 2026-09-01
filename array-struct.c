@@ -4,13 +4,12 @@ typedef struct {
     char model[25];
     int year;
     int price;
-
 } Car;
 
 int main() {
 
-    // array of structs = Array where each element contains a struct {}
-    //                    Helps organize and groups together related data
+    // array of structs == Array where each element contains a struct {}
+    //                     Helps organize and groups together related data
 
     Car cars[] = {
         {"Mustang", 2025, 32000},

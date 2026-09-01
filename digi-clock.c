@@ -4,6 +4,9 @@
 #include <unistd.h>
 
 int main() {
+    
+    /*  DIGITAL CLOCK */
+    
     time_t rawtime = 0; // time passed since: 1970 Jan 1st (Epoch)
 
     struct tm *p_time = NULL;
@@ -18,8 +21,8 @@ int main() {
 
         p_time = localtime(&rawtime);
 
-        // arrow = dereferce the pointer and give the hour
-        // \r = carriage return: puts the cursor back to place
+        // arrow == dereference the pointer and give the hour
+        // \r == carriage return: puts the cursor back to place
         printf("\r%02d:%02d:%02d", p_time->tm_hour, p_time->tm_min,
                p_time->tm_sec);
 

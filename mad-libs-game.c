@@ -12,10 +12,10 @@ int main() {
     char adjective3[50] = "";
 
     printf("Enter an adjective (description): ");
-    // fgets = can take in white spaces while scanf() can't
+    // fgets == can take in white spaces while scanf() can't
     fgets(adjective1, sizeof(adjective1), stdin);
     // remove newline-character(\n) from input buffer
-    // 'b' 'a' 'z' 'z' '\n' '\0' => 'b' 'a' 'z' 'z' '\0'
+    // 'b' 'a' 'z' 'z' '\n' '\0' => 'b' 'a' 'z' 'z' '\0' '\0'
     adjective1[strlen(adjective1) - 1] = '\0';
 
     printf("Enter a noun (animal or person): ");

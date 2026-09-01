@@ -7,8 +7,8 @@ typedef char Initials[3];
 
 int main() {
 
-    // typedef = A reserved keyword that gives an existing datatype a "neckname"
-    //       helps simplify complex types and improves code readability
+    // typedef == A reserved keyword that gives an existing datatype a "nickname"
+    //            helps simplify complex types and improves code readability
 
     Number x = 3;
     Number y = 4;
@@ -16,7 +16,7 @@ int main() {
 
     printf("%d\n", z);
 
-    /* char name[] = "Daniel"; */
+    // char name[] = "Daniel";
     String name = "Bro Code";
     printf("%s\n", name);
 

@@ -3,12 +3,12 @@
 
 int main() {
 
-    // calloc() = Contiguous Allocation
-    //            Allocates memory dynamically, sets all allocated bytes to 0.
-    //            malloc() is faster, but calloc() leads to less bugs
+    // calloc() == Contiguous Allocation
+    //             Allocates memory dynamically, sets all allocated bytes to 0.
+    //             malloc() is faster, but calloc() leads to less bugs
 
-    //            malloc(bytes)
-    //            calloc(#, size)
+    //             malloc(bytes)
+    //             calloc(#, size)
 
     int number = 0;
 

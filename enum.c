@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// first value starts with 0
+// first value starts with 0 by default
 typedef enum {
     SUNDAY = 1,
     MONDAY,
@@ -15,16 +15,16 @@ typedef enum {
     SUCCESS,
     FAILURE,
     PENDING
-
 } Status;
 
+// function prototype: if the function is declared after the main function
 void connect_status(Status status);
 
 int main() {
 
-    // enum = A user-defined data type that consists
-    //        of a set of named integer constants
-    //        Benefit: Replaces numbers with readable names
+    // enum == A user-defined data type that consists
+    //         of a set of named integer constants
+    //         Benefit: Replaces numbers with readable names
 
     Day today = TUESDAY;
     // printf("%d\n", today);
