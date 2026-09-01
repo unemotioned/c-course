@@ -1,0 +1,9 @@
+.DS_Store
+
+.vscode/**
+!.vscode/settings.json
+
+a
+a.exe
+main
+main.exe
