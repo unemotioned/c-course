@@ -10,20 +10,21 @@ Basics of **C** programming language.
 
 - [Prerequisite](#prerequisite)
 - [GCC](#gcc)
-- [Mad Libs Game](#mad-libs-game)
-- [Compound Interest Program](#compound-interest-program)
-- [Arrays of String](#arrays-of-string)
-- [Typedef](#typedef)
-- [Enums](#enums)
-- [Struct](#struct)
-- [Arrays of Structs](#arrays-of-structs)
-- [Pointers](#pointers)
-- [Write Files](#write-files)
-- [Read Files](#read-files)
-- [Malloc](#malloc)
-- [Calloc](#calloc)
-- [Realloc](#realloc)
-- [Digital Clock](#digital-clock)
+- [Codes](#codes)
+  - [Mad Libs Game](#mad-libs-game)
+  - [Interest Calculator](#interest-calculator)
+  - [Arrays of String](#arrays-of-string)
+  - [Typedef](#typedef)
+  - [Enums](#enums)
+  - [Struct](#struct)
+  - [Arrays of Structs](#arrays-of-structs)
+  - [Pointers](#pointers)
+  - [Write Files](#write-files)
+  - [Read Files](#read-files)
+  - [Malloc](#malloc)
+  - [Calloc](#calloc)
+  - [Realloc](#realloc)
+  - [Digital Clock](#digital-clock)
 
 ---
 
@@ -37,6 +38,12 @@ brew install gcc
 # check install
 gcc --version
 ```
+
+### MinGW
+
+To use gcc on windows follow instructions from:
+
+[GitHub - UnEmotioneD/tistory/mingw.md](https://github.com/unemotioned/tistory/blob/main/windows/mingw.md)
 
 ---
 
@@ -56,56 +63,58 @@ gcc main.c -o main
 
 ---
 
-## Mad Libs Game
+## Codes
+
+### Mad Libs Game
 
 ---
 
-## Compound Interest Program
+### Interest Calculator
 
 ---
 
-## Arrays of String
+### Arrays of String
 
 ---
 
-## Typedef
+### Typedef
 
 ---
 
-## Enums
+### Enums
 
 ---
 
-## Struct
+### Struct
 
 ---
 
-## Arrays of Structs
+### Arrays of Structs
 
 ---
 
-## Pointers
+### Pointers
 
 ---
 
-## Write Files
+### Write Files
 
 ---
 
-## Read Files
+### Read Files
 
 ---
 
-## Malloc
+### Malloc
 
 ---
 
-## Calloc
+### Calloc
 
 ---
 
-## Realloc
+### Realloc
 
 ---
 
-## Digital Clock
+### Digital Clock
