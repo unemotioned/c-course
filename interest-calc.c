@@ -16,7 +16,7 @@ int main() {
     printf("Enter the principal (P): ");
     scanf("%lf", &principal);
 
-    printf("Enter the interest rate % (r): ");
+    printf("Enter the interest rate %% (r): ");
     scanf("%lf", &rate);
     rate = rate / 100;
 
