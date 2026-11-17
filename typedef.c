@@ -5,9 +5,10 @@ typedef int Number;
 typedef char String[50]; // 50 bytes
 typedef char Initials[3];
 
-int main() {
+int main(void) {
 
-    // typedef == A reserved keyword that gives an existing datatype a "nickname"
+    // typedef == A reserved keyword that gives an existing datatype a
+    //            "nickname"
     //            helps simplify complex types and improves code readability
 
     Number x = 3;

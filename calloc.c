@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(void) {
 
     // calloc() == Contiguous Allocation
     //             Allocates memory dynamically, sets all allocated bytes to 0.

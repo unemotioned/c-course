@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(void) {
 
     // malloc() == A function in C that dynamically allocates a specified number
     //             of bytes from HEAP memory
@@ -31,7 +31,7 @@ int main() {
         printf("%c ", grades[i]);
     }
 
-    free(grades); // returning the rented space from HEAP to OS
+    free(grades);  // returning the rented space from HEAP to OS
     grades = NULL; // avoids dangling pointers by resetting pointer
 
     return 0;

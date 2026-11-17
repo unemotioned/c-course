@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int main() {
+int main(void) {
 
     /* COMPOUND INTEREST CALCULATOR */
 

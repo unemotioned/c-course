@@ -11,16 +11,12 @@ typedef enum {
     SATURDAY
 } Day;
 
-typedef enum {
-    SUCCESS,
-    FAILURE,
-    PENDING
-} Status;
+typedef enum { SUCCESS, FAILURE, PENDING } Status;
 
 // function prototype: if the function is declared after the main function
 void connect_status(Status status);
 
-int main() {
+int main(void) {
 
     // enum == A user-defined data type that consists
     //         of a set of named integer constants

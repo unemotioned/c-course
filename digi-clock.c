@@ -3,10 +3,10 @@
 #include <time.h>
 #include <unistd.h>
 
-int main() {
-    
+int main(void) {
+
     /*  DIGITAL CLOCK */
-    
+
     time_t rawtime = 0; // time passed since: 1970 Jan 1st (Epoch)
 
     struct tm *p_time = NULL;
@@ -23,7 +23,9 @@ int main() {
 
         // arrow == dereference the pointer and give the hour
         // \r == carriage return: puts the cursor back to place
-        printf("\r%02d:%02d:%02d", p_time->tm_hour, p_time->tm_min,
+        printf("\r%02d:%02d:%02d",
+               p_time->tm_hour,
+               p_time->tm_min,
                p_time->tm_sec);
 
         fflush(stdout);

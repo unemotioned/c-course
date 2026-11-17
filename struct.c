@@ -11,7 +11,7 @@ typedef struct {
 
 void print_student(Student student);
 
-int main() {
+int main(void) {
 
     // struct == A custom container that holds multiple
     //           pieces of related information.
@@ -29,7 +29,8 @@ int main() {
 
     // declare and assigns values late
     // strcpy(student4.name, "Sandy"); // strcpy for string values
-    strncpy(student4.name, "Sandy",
+    strncpy(student4.name,
+            "Sandy",
             5); // strncpy: safely copy specified amount of chars
     student4.age = 27;
     student4.gpa = 4.0;

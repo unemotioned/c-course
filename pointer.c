@@ -2,12 +2,12 @@
 
 void birthday(int *age);
 
-int main() {
+int main(void) {
 
     // pointer == A variable that stores the memory address of another variable.
-    //            Benefit: They help avoid wasting memory by allowing you to pass
-    //            the address of a large data structure instead of copying the
-    //            entire data.
+    //            Benefit: They help avoid wasting memory by allowing you to
+    //            pass the address of a large data structure instead of copying
+    //            the entire data.
 
     int age = 25;
     // * could be suffix of type

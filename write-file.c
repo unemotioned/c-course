@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     // 2nd arg "w" == write mode
     FILE *p_file = fopen("output.txt", "w");
 

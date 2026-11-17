@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     // 1st arg == relative or absolute file path
     FILE *p_file = fopen("input.txt", "r");
 
